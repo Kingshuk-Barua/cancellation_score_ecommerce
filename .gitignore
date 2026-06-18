@@ -1,0 +1,78 @@
+# macOS / local editor files
+.DS_Store
+._*
+*.swp
+*.swo
+
+# Python cache and local environments
+__pycache__/
+*.py[cod]
+*$py.class
+.python-version
+.venv/
+venv/
+env/
+ENV/
+
+# Python tooling output
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+credentials*.json
+service-account*.json
+token*.json
+
+# Data files and generated analysis artifacts
+*.csv
+*.tsv
+*.parquet
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.hdf5
+*.sqlite
+*.db
+data/
+archive/
+forecasts/
+models/
+outputs/
+reports/
+
+# Node / frontend build artifacts
+node_modules/
+.next/
+out/
+dist/
+build/
+coverage/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local documents and Office temp files
+~$*
+*.doc
+*.docx
+*.ppt
+*.pptx
+*.xls
+*.xlsx
+
+# Excluded project copy
+e_com_analysis/
