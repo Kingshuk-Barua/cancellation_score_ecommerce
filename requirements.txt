@@ -1,0 +1,16 @@
+pandas==2.3.3
+numpy==2.3.5
+scikit-learn==1.7.2
+statsmodels==0.14.5
+prophet==1.3.0
+cmdstanpy==1.3.0
+shap==0.51.0
+plotly==6.3.0
+tqdm==4.67.1
+
+# Needed to auto-execute time_series_data.ipynb (prerequisite for demand_forecasting.py)
+jupyter==1.1.1
+nbconvert==7.16.6
+nbformat==5.10.4
+jupyter_client==8.6.3
+ipykernel==6.31.0
